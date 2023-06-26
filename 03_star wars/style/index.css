@@ -4,6 +4,15 @@ body {
     margin-top: 25px;
     margin: 0px;
     height: 100vh;
+    
+    /* The image used */
+    background-image: url('../images/671306.jpg');
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
 }
 
 body,
@@ -12,22 +21,10 @@ html {
 }
 
 .bg {
-    /* The image used */
-    background-image: url('../images/671306.jpg');
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: auto;
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 30px 0px 100px 0px;
+    padding: 30px 0px 200px 0px;
 }
 
 .conteiner {
