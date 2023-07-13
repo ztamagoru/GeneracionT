@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dead Man Walking</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link href="./style/common.css" rel="stylesheet" type="text/css">
+
+    <script>
+        function opt_help() {
+            window.open("./go_help.html", "_self")
+        };
+
+        function opt_whatHappens() {
+            window.open("./what_happens.html", "_self")
+        };
+        
+        function opt_front() {
+            window.open("./front.html", "_self")
+        };
+
+        function opt_rear() {
+            window.open("./rear.html", "_self")
+        };
+    </script>
+</head>
+
+<body>
+    <div class="center">
+        <div class="conteiner">
+            <div>
+                <h1>
+                    <center>Call Out</center>
+                </h1>
+            </div>
+
+            <div class="item">
+                <p>You call out to the person trapped in the train wreckage. In response, the low mournful groans suddenly
+                turn into heavy desperate panting snarls and a flurry of rattling and shaking from that direction.
+                Whoever is making those noises does not sound very well off or even sane at this point.</p>
+            </div>
+
+            <div class="options">
+                <input type="button" value="Wait to see what happens" onclick="opt_whatHappens()" class="button">
+
+                <input type="button" value="Go to see if you can help this poor soul" onclick="opt_help()" class="button">
+
+                <input type="button"
+                    value="Ignore the person in the wreckage and climb through the mess to the front of the subway train"
+                    onclick="opt_front()" class="button">
+
+                <input type="button"
+                    value="Ignore the person in the wreckage and climb through the mess to the rear of the subway train"
+                    onclick="opt_rear()" class="button">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

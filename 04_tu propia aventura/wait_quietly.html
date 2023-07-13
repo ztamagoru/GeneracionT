@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dead Man Walking</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link href="./style/common.css" rel="stylesheet" type="text/css">
+
+    <script>
+        function opt_bindShirt() {
+            window.open("./bind_your_head.html", "_self")
+        };
+
+        function opt_callOut() {
+            window.open("./call_out.html", "_self")
+        };
+
+        function opt_sneak() {
+            window.open("./sneak.html", "_self")
+        };
+
+        function opt_front() {
+            window.open("./front.html", "_self")
+        };
+
+        function opt_rear() {
+            window.open("./rear.html", "_self")
+        };
+    </script>
+</head>
+
+<body>
+    <div class="center">
+        <div class="conteiner">
+            <div>
+                <h1>
+                    <center>Wait Quietly</center>
+                </h1>
+            </div>
+
+            <div class="item">
+                <p>You sit in the darkness waiting. Surely someone must know about this train wreck and will be coming
+                    to the rescue any minute.</p>
+
+                <p>The minutes pass…</p>
+
+                <p>The hour passes…</p>
+
+                <p>And then hours pass…</p>
+
+                <p>You have been sitting in the darkness for a long time and are starting to feel weak and dizzy in
+                    addition to being in pain. Maybe you should have tried to find help for yourself, rather than sit
+                    here, probably bleeding out this whole time. On a side note, whoever is there in the train wreckage still
+                    seems to be alive – moaning incoherently from time to time.</p>
+            </div>
+
+            <div class="options">
+                <input type="button" value="Bind your head with cloth from your shirt" onclick="opt_bindShirt()" class="button">
+
+                <input type="button" value="Call out to whoever is there" onclick="opt_callOut()" class="button">
+
+                <input type="button" value="Try to sneak toward the person in the wreckage without revealing your presence" onclick="opt_sneak()" class="button">
+
+                <input type="button"
+                    value="Ignore the sound and climb through the wreckage to the front of the subway train (there might be a first aid kit in the front car)"
+                    onclick="opt_front()" class="button">
+
+                <input type="button"
+                    value="Ignore the sound and climb through the wreckage to the rear of the subway train"
+                    onclick="opt_rear()" class="button">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

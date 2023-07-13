@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dead Man Walking</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link href="./style/common.css" rel="stylesheet" type="text/css">
+
+    <script>
+        function end() {
+            window.open("./end.html", "_self")
+        };
+
+        function opt_front() {
+            window.open("./front.html", "_self")
+        };
+
+        function opt_rear() {
+            window.open("./rear.html", "_self")
+        };
+    </script>
+</head>
+
+<body>
+    <div class="center">
+        <div class="conteiner">
+            <div>
+                <h1>
+                    <center>What Happens</center>
+                </h1>
+            </div>
+
+            <div class="item">
+                <p>There is a disturbingly wet ‘tearing’ sound and you can hear the desperate panting snarls suddenly
+                beginning to get closer. You wait nervously in the dark, straining to see, as it emerges from the
+                wreckage. Crawling toward you over the caved-in side of an overturned subway car is a bloody corpse, its
+                lower half fully torn away at the waist and trailing innards behind. The thing can’t possibly be alive,
+                but there it is, frothing bloody foam at the mouth and snapping hungry jaws at you – like something
+                right out of an old horror movie!</p>
+            </div>
+
+            <div class="options">
+                <input type="button" value="Find a large stone to smash its head in with" onclick="end()"
+                    class="button">
+
+                <input type="button"
+                    value="Flee through the mess to the front of the subway train (it can’t follow very fast)"
+                    onclick="opt_front()" class="button">
+
+                <input type="button"
+                    value="Flee through the wreckage to the rear of the subway train (it can’t follow very fast)"
+                    onclick="opt_rear()" class="button">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
